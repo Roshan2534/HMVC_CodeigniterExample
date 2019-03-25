@@ -51,6 +51,7 @@ echo '<div class="error">'.form_error('login_password').'</div>';
 
 
 echo form_submit($login_submit);
+echo form_close();
 ?>
 
 </div>

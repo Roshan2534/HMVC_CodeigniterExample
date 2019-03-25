@@ -77,7 +77,7 @@ echo form_dropdown($gender,$gender_option);
 echo '<div class="error">'.form_error('gender').'</div>';
 
 echo form_submit($register_submit);
-
+echo form_close();
 
 
 
