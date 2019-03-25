@@ -54,6 +54,7 @@ $route['register']='users/register';
 $route['login']='users/login';
 $route['logout']='users/login/logout';
 $route['dashboard']='users/dashboard';
+$route['profile']='users/dashboard/profile';
 $route['default_controller'] = 'users/register';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
