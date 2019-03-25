@@ -36,5 +36,14 @@ class Dashboard extends MX_Controller
         $data['user_profile']=$this->user->find($id);
         echo Modules::run('templates/user_layout',$data);
     }
-    public function edit profile pic
+    public function edit_profile_pic()
+    {
+        $data['title']='Edit Profile Pic';
+        $data['module']='users';
+        $data['view_file']='edit_profile_pic';
+        //Running a querry to find user details
+        $id = $this->session->userdata('user_id');
+        $data['user_profile']=$this->user->find($id);
+        echo Modules::run('templates/user_layout',$data);
+    }
 }
