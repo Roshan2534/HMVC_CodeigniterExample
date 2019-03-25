@@ -36,4 +36,5 @@ class Dashboard extends MX_Controller
         $data['user_profile']=$this->user->find($id);
         echo Modules::run('templates/user_layout',$data);
     }
+    public function edit profile pic
 }
