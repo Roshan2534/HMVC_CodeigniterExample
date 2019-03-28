@@ -56,6 +56,12 @@ $route['logout']='users/login/logout';
 $route['dashboard']='users/dashboard';
 $route['profile']='users/dashboard/profile';
 $route['edit_profile_pic']='users/dashboard/edit_profile_pic';
+$route['update_profile_pic']='users/dashboard/update_profile_pic';
+$route['edit_profile']='users/dashboard/edit_profile';
+
+//RoutedBlog
+$route['add_post']='posts/blog/add_post';
+
 $route['default_controller'] = 'users/register';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

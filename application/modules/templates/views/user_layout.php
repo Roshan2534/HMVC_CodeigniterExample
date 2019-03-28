@@ -24,7 +24,7 @@
   <?php $this->load->view($module.'/'.$view_file);?>
   </div>
   <div class="col-4"> 
-  <h3>Sidebar</h3>
+  <?php echo Modules::run('categories/categories/get_cat_sidebar');?>
   </div>
   </div>
 </div>
