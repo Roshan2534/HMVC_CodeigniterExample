@@ -59,8 +59,11 @@ $route['edit_profile_pic']='users/dashboard/edit_profile_pic';
 $route['update_profile_pic']='users/dashboard/update_profile_pic';
 $route['edit_profile']='users/dashboard/edit_profile';
 
+$route['view_author_profile/(:any)']   = 'users/public_access/view_author_profile/$1';
 //RoutedBlog
-$route['add_post']='posts/blog/add_post';
+$route['add_posts']='posts/blog/add_posts';
+$route['my_posts']='posts/blog/my_posts';
+$route['view_post/(:any)'] = 'posts/blog/view_post/$1';
 
 $route['default_controller'] = 'users/register';
 $route['404_override'] = '';

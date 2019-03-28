@@ -26,7 +26,7 @@ $post_submit = array(
     'class' => 'btn btn-primary m-top-10',
     'value' => 'Add Post'
   );
-  echo form_open('add_post', array('class'=>'form-horizontal m-top-50'), $hidden);
+  echo form_open('add_posts', array('class'=>'form-horizontal m-top-50'), $hidden);
 
   echo form_input($title);
   echo '<div class="error">'.form_error('title').'</div>';
